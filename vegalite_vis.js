@@ -1,7 +1,7 @@
 var vg1 = "js/suicide_by_state.vg.json";
 vegaEmbed("#map", vg1).then(function(result) {}).catch(console.error);
 
-var vg2 = "js/suicide_by_terriority.vg.json";
+var vg2 = "js/Suicide_by_terriority.vg.json";
 vegaEmbed("#tree", vg2).then(function(result) {}).catch(console.error);
 
 var vg3 = "js/suicide_deaths_state.vg.json";
